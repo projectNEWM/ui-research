@@ -1,0 +1,79 @@
+body {
+    margin: 30px;
+    background-color: #030404;
+}
+
+button {
+    /* color: #FFF; */
+    background-color: #468189;
+
+}
+
+p {
+    color: #FFF;
+    margin: auto;
+    padding: 20px;
+    font-size: large;
+
+}
+
+text {
+    color: #FFF;
+    margin: auto;
+    padding: 20px;
+    font-size: large;
+
+}
+
+li {
+    color: #FFF;
+    margin: auto;
+    font-size: large;
+}
+input {
+    background-color: #231823;
+    color: #FFF;
+
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    background: linear-gradient(to right, #4f9946,#7b1e1c,#652776,#0f5e7b);
+
+}
+
+h2 {
+    color: #d438d7;
+
+}
+
+.btn {
+    background-image: linear-gradient(to right, #c234d1 0%, #8a37bf 51%, #4935b0 100%);
+}
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 10px;
+}
+
+
+
+.demos {
+    margin: auto;
+    width: 50%;
+}
+
+.btn-primary {
+    background-color: #468189;
+}

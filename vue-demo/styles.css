@@ -1,0 +1,168 @@
+body {
+    margin: 30px;
+    background-color: #030404;
+}
+
+button {
+    /* color: #FFF; */
+    background-color: #468189;
+
+}
+
+p {
+    color: #FFF;
+    margin: auto;
+    padding: 20px;
+    font-size: large;
+
+}
+
+li {
+    color: #FFF;
+    margin: auto;
+    font-size: large;
+}
+input {
+    background-color: #231823;
+    color: #FFF;
+
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    background: linear-gradient(to right, #4f9946,#7b1e1c,#652776,#0f5e7b);
+
+}
+
+h2 {
+    color: #d438d7;
+
+}
+
+.btn {
+    background-image: linear-gradient(to right, #c234d1 0%, #8a37bf 51%, #4935b0 100%);
+}
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 10px;
+}
+
+
+
+.demos {
+    margin: auto;
+    width: 50%;
+}
+
+.btn-primary {
+    background-color: #468189;
+}
+
+/* -------------------- Demo 1 ------------------ */
+
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+    display: block;
+}
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s ease;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+    opacity: 1;
+}
+/* -------------------- Demo 2------------------ */
+.slide-fade-enter-active {
+    transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+    transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+/* -------------------- Demo 3 ------------------ */
+
+.movearea {
+    transition: 0.2s background-color ease;
+}
+
+
+.img {
+    padding: 20px;
+    max-width: 100%;
+}
+
+/* -------------------- Demo 4 ------------------ */
+
+
+
+.bounce-enter-active {
+    animation: bounce-in .5s ease-out both;
+}
+
+.bounce-leave-active {
+    animation: bounce-in .5s reverse ease-in both;
+}
+
+@keyframes bounce-in {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* -------------------- Demo 5 ------------------ */
+
+.box {
+    width: 30px;
+    height: 30px;
+    background: teal;
+    margin-top: 20px;
+}
+
+/* -------------------- Demo 6 ------------------ */
+
+.mode-fade-enter-active,
+.mode-fade-leave-active {
+    transition: opacity .5s ease
+}
+
+.mode-fade-enter-from,
+.mode-fade-leave-to {
+    opacity: 0
+}
+
+/* -------------------- Demo 7 ------------------ */
+/* THe v-move class is used to animation changes in position instead of entering and leaving  */
+.flip-list-move {
+    transition: transform 0.8s ease;
+  }
