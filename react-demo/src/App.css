@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.ap
+.img {
+  left: 20px;
+  top:20px
+}
+
+.song-info {
+  position: absolute;
+  left: 20px;
+  top:20px
+}
+
+/* body{
+  background-color: #000000;
+} */
+
+.img {
+  width: 25%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* TRANSITIONS  */
+
+/* .form-enter {
+  opacity: 0;
+}
+.form-enter-active {
+  opacity: 1;
+  transition: opacity 350ms;
+}
+.form-exit {
+  opacity: 1;
+}
+.form-exit-active {
+  opacity: 0;
+  transition: opacity 350ms
+} */
+/* This fires as soon as the element enters the dorm */
+.form-transition-enter,
+.form-transition-appear {
+  /*We give the form the initial dimension of the form button*/
+  top: 0;
+  width: 120px;
+  max-height: 40px;
+  color: transparent;
+  background-color: #5a564c;
+}
+/* This is where we can add the transition*/
+.form-transition-enter-active,
+.form-transition-appear-active {
+  top: 45px;
+  width: 200px;
+  max-height: 200px;
+  background-color: #9e8949;
+  transition: all 400ms;
+}
+
+/* This fires as soon as the this.state.showform is false */
+.form-transition-exit {
+  top: 45px;
+  width: 200px;
+  max-height: 200px;
+  background-color: #9e8949;
+}
+/* fires as element leaves the DOM*/
+.form-transition-exit-active {
+  top: 0;
+  width: 120px;
+  max-height: 40px;
+  color: transparent;
+  background-color: #5a564c;
+  transition: all 400ms;
+}
+
+
+.button-enter {
+  opacity: 0;
+}
+.button-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+.button-exit {
+  opacity: 1;
+}
+.button-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+}
